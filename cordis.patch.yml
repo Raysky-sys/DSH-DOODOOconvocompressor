@@ -1,0 +1,23 @@
+
+# This patch registers the 'conversation_compressor' Tool visible to the AI Agent.
+
+plugins:
+  - name: conversation-compressor-tool
+    version: 1.0.0
+    type: tool
+    entry: ConversationCompressorTool
+    host:
+      tools:
+        # Registers the core tool method
+        - name: setCompactionLimit
+          description: "Sets the target token usage percentage (e.g., 0.7) at which conversation compaction should begin."
+          parameters:
+            type: "object"
+            properties:
+              targetPercentage:
+                type: "number"
+                description: "The target token usage percentage (0.0 to 1.0)."
+                example: 0.7
+            required: [
+              "targetPercentage"
+            ]

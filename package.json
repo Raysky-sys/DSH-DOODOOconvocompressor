@@ -1,0 +1,13 @@
+{
+  "name": "conversation-compressor-tool",
+  "version": "1.0.0",
+  "description": "A tool that allows the AI model to activate conversation compaction logic based on token usage.",
+  "main": "lib/index.js",
+  "keywords": [
+    "ai",
+    "token",
+    "conversation",
+    "compaction"
+  ],
+  "dependencies": {}
+}
