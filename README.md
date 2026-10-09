@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Conversation Compressor Tool (`conversation-compressor-tool`)
 
 ## Description
@@ -33,3 +34,7 @@ The provided code serves as the structural definition for the plugin. In a full 
 *(This section should be customized based on how the plugin is hosted)*
 
 This plugin must be packaged as a Cordis Bundle and installed into the current Harness profile to be made available to the AI Agent.
+=======
+# DSH-DOODOOconvocompressor
+convo compressor
+>>>>>>> 8995a7e23e521bc27a30f33c89a5eca5b19029ee
